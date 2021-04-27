@@ -7,3 +7,5 @@ A single page HTML website to house some important links for GNCTR 2020. Hosting
 Nothing fancy, but it gets the job done.
 
 [gnctr2020.com](www.gnctr2020.com)
+
+![alt text](assets/images/GNCTR2020_Logo_Primary_Black.png "GNCTR 2020 Logo")
