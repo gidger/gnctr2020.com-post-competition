@@ -1,4 +1,4 @@
-body {font-family: Montserrat, Helvetica Neue, sans-serif; margin: 0 auto; line-height: 2em; padding: 12px; box-sizing: border-box; color: #333; overflow: auto;
+body {font-family: Montserrat, Helvetica Neue, sans-serif; margin: 0 auto; line-height: 2em; padding-top: 12px; box-sizing: border-box; color: #333; overflow: auto;
 background: #7dbfe0; /* Old browsers */
 background: -moz-linear-gradient(-45deg,  #7dbfe0 0%, #7dbfe0 50%, #569dc4 50%, #569dc4 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#7dbfe0), color-stop(50%,#7dbfe0), color-stop(50%,#569dc4), color-stop(100%,#569dc4)); /* Chrome,Safari4+ */
@@ -7,16 +7,15 @@ background: -o-linear-gradient(-45deg,  #7dbfe0 0%,#7dbfe0 50%,#569dc4 50%,#569d
 background: -ms-linear-gradient(-45deg,  #7dbfe0 0%,#7dbfe0 50%,#569dc4 50%,#569dc4 100%); /* IE10+ */
 background: linear-gradient(135deg,  #7dbfe0 0%,#7dbfe0 50%,#569dc4 50%,#569dc4 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7dbfe0', endColorstr='#569dc4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
 }
 
 body, html {height: 100%;}
 
-.wrapper {box-sizing: border-box; height: 100%; overflow: auto; }
+.wrapper {box-sizing: border-box; height: 100%; width: 100%; overflow: auto; }
 
 a {text-decoration: none; color: #333; border-bottom: 3px solid #3a7b9e;}
 a:hover {color: #F4D950}
 p {font-weight: 200; font-size: 20px;}
 
-.container {margin: 0 auto; width: 700px; padding: 120px 12px 50px; overflow: auto;}
-article {padding: 60px;}
+.container {margin: 0 auto; width: 100%; max-width: 700px; overflow: auto;}
+article {padding: 20px;}
